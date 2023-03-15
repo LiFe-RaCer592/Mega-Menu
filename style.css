@@ -1,0 +1,646 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* header .top-bar {
+  background-color: #000;
+}
+
+* header .top-bar .container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+* header .top-bar .container #marquee {
+  height: 25px;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* header .top-bar .container #marquee p {
+  width: 38em;
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  -webkit-animation: marquee 15s linear infinite;
+          animation: marquee 15s linear infinite;
+  color: #fff;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -38em;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -38em;
+  }
+}
+
+* header .header .container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin: 0 auto;
+  width: 95%;
+  padding: 12px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* header .header .container .search-bar {
+  width: 33.33%;
+  text-align: start;
+}
+
+* header .header .container .search-bar input[type="text"] {
+  font-size: 20px;
+  border: 0;
+  padding: 12px 20px;
+}
+
+* header .header .container .search-bar input[type="text"]:focus {
+  border: 0;
+  outline: 0;
+}
+
+* header .header .container .logo {
+  width: 33.33%;
+  text-align: center;
+}
+
+* header .header .container .logo img {
+  width: 60%;
+}
+
+* header .header .container .quick-btns {
+  width: 33.33%;
+  text-align: end;
+}
+
+* header .header .container .quick-btns a {
+  margin-left: 10px;
+}
+
+* header nav .nav .container {
+  padding: 12px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+* header nav .nav .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .westren-horse-saddles a {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+* header nav .nav .container ul .westren-horse-saddles:hover .westren-horse-saddles-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-type {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-type:hover .saddles-by-type-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-type .saddles-by-type-content {
+  display: block;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-type .saddles-by-type-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-type .saddles-by-type-content .container .row .column img {
+  width: 150px;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-size {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-size:hover .saddles-by-size-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-size .saddles-by-size-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-size .saddles-by-size-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-bar-size {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-bar-size:hover .saddles-by-bar-size-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-bar-size .saddles-by-bar-size-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-bar-size .saddles-by-bar-size-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .saddles-by-bar-size .saddles-by-bar-size-content .container .row .column img {
+  width: 150px;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row .menu-tabs {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row .menu-tabs .headstalls-breast-collars:hover .headstalls-breast-collars-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row .menu-tabs .headstalls-breast-collars-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row .menu-tabs .headstalls-breast-collars-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .westren-horse-saddles .westren-horse-saddles-content .container .row .column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul .all-tack {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack a {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+* header nav .nav .container ul .all-tack:hover .all-tack-dropdown-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .headstalls-breast-collars {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .headstalls-breast-collars:hover .headstalls-breast-collars-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .headstalls-breast-collars .headstalls-breast-collars-content {
+  display: block;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .headstalls-breast-collars .headstalls-breast-collars-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .western-spurs {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .western-spurs:hover .western-spurs-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .western-spurs .western-spurs-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .western-spurs .western-spurs-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .reins {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .reins:hover .reins-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .reins .reins-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .reins .reins-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .bits {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .bits:hover .bits-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .bits .bits-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .bits .bits-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .saddle-pads {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .saddle-pads:hover .saddle-pads-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .saddle-pads .saddle-pads-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .saddle-pads .saddle-pads-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .saddle-pads .saddle-pads-content .container .row .column img {
+  width: 150px;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row .menu-tabs {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row .menu-tabs .headstalls-breast-collars:hover .headstalls-breast-collars-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row .menu-tabs .headstalls-breast-collars-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row .menu-tabs .headstalls-breast-collars-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .all-tack .all-tack-dropdown-content .container .row .column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul .barn-equipment {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .barn-equipment a {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+* header nav .nav .container ul .barn-equipment:hover .barn-equipment-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .indoor-supplies {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .indoor-supplies:hover .indoor-supplies-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .indoor-supplies .indoor-supplies-content {
+  display: block;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .indoor-supplies .indoor-supplies-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .outdoor-supplies {
+  overflow: hidden;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .outdoor-supplies:hover .outdoor-supplies-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .outdoor-supplies .outdoor-supplies-content {
+  display: none;
+  width: 70%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 30%;
+  top: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  z-index: 1;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .outdoor-supplies .outdoor-supplies-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row .menu-tabs {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row .menu-tabs .headstalls-breast-collars:hover .headstalls-breast-collars-content {
+  display: block !important;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row .menu-tabs .headstalls-breast-collars-content {
+  display: none;
+  width: 85%;
+  position: absolute;
+  background-color: #f9f9f9;
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+  height: 420px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row .menu-tabs .headstalls-breast-collars-content .container {
+  padding: 30px 0;
+}
+
+* header nav .nav .container ul .barn-equipment .barn-equipment-content .container .row .column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+}
+
+* header nav .nav .container ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
